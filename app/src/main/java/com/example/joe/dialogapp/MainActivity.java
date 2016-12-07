@@ -68,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
                 .create();
         builder.show();
     }
+
+    //TODO: Better methods for doing all the add ons
     public void addSmileyFace(){
         String newString = mEditext.toString() + ":)";
         string.clear();
